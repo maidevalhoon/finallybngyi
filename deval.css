@@ -1,0 +1,204 @@
+body{
+    margin: 0;
+
+}
+header{
+    background-color: rgb(49, 45, 45);
+    height: 80px;
+}
+.upper ul{
+    max-height: 30px;
+    list-style-type: none;
+    padding: 15px;
+    margin: 0;
+    overflow: hidden;
+}
+.upper a{
+    color: black;
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+}
+.upper a:hover{
+    color: white;
+    background-color: black;
+}
+.upper li{
+    float:left;
+}
+.breaking-news {
+    background-color: #e2dbdb;
+    color: #614d4d;
+    padding: 10px 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.breaking-news .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.breaking-news span {
+    margin-right: 20px;
+}
+
+.breaking-news .news-text {
+    flex-grow: 1;
+    margin-left: 10px;
+    text-align: left;
+}
+
+.search-icon {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.search-icon:hover {
+    color: #000000;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-auto-rows: 500px;
+    column-gap: 10px;
+
+}
+.contenttext a{
+    text-decoration: none;
+}
+.contenttext a:hover{
+    text-decoration: underline,solid;
+    font-size: 30px;
+}
+.left1{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: center;
+background-image: url(dzukou-valley.jpg);
+background-size: cover;
+    border-radius: 20px;
+    grid-row:span 2;
+    height: 570px;
+}
+.buttons1 ul{
+    list-style-type: none;
+}
+.buttons1 a{
+    text-decoration: none;
+}
+.buttons1 li{
+    display: inline;
+    margin-right: 10px;
+    background-color: rgb(38, 38, 38);
+   padding: 5px;
+   border-radius: 15px;
+}
+.buttons2 ul{
+    list-style-type: none;
+}
+.buttons2 a{
+    text-decoration: none;
+}
+.buttons2 li{
+    display: inline;
+    margin-right: 10px;
+    background-color: rgb(38, 38, 38);
+   padding: 5px;
+   border-radius: 15px;
+}
+.buttons1 a:hover{
+    font-size: large;
+    background-color: #614d4d;
+    padding: 5px;
+    border-radius: 15px;
+}
+.buttons2 a:hover{
+    font-size: large;
+    background-color: #614d4d;
+    padding: 5px;
+    border-radius: 15px;
+}
+.left2{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: center;
+background-image: url(waterfall.jpeg);
+background-size: cover;
+border-radius: 20px;
+grid-row:span 2;
+height: 570px;
+}
+.left3{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between;
+    height: 570px;
+    
+}
+.left3upper{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: center;
+background-image: url(mountain_house_ai_vizarq-1.jpeg);
+background-size: cover;
+border-radius: 20px;
+height: 50%;
+}
+.left3lower{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: center;
+background-image: url(iitg.jpeg);
+background-size: cover;
+border-radius: 20px;
+height: 50%;
+}
+.left4{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.type ul{
+    list-style-type: none;
+}
+.type a{
+    padding: 10px;
+    width: 50%;
+    text-decoration: none;
+}
+.type li{
+    display: inline;
+    width: 100%;
+}
+.type a:hover{
+    background-color: grey;
+    font-size: large;
+    color: #fff;
+    border-radius: 25px;
+}
+.news{
+    gap: 5px;
+    list-style-type: none;
+}
+.news img{
+    height: 80px;
+    width: 80px;
+}
+.extranews{
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    margin-bottom: 10px;
+}
+
